@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+  .contato {
+    background-image: none;
+    background-color: #D3AE71;
+  }
+
+  .contato .container-texto-contato {
+    position: relative;
+    text-align: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .contato h2 {
+    margin-bottom: 46px;
+  }
+}
+
+@media (max-width: 720px) {
+  .galeria .grande,
+  .galeria .medio {
+    width: 100%;
+  }
+
+  .galeria .pequeno {
+    width: 50%;
+  }
+
+  .rodape {
+    position: static;
+    background-image: none;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .rodape a img {
+    margin-bottom: 109px;
+  }
+  
+  .rodape ul {
+    display: block;
+    float: none;
+    margin-bottom: 109px;
+  }
+
+  .rodape a,
+  .rodape ul li {
+    display: block;
+  }
+
+  .rodape ul li {
+    padding: 2px 0;
+  }
+
+  .rodape ul li a {
+    padding: 13px 0;
+    font-size: 2rem;
+  }
+
+  .rodape .conteudo-baixo .redes-sociais {
+    float: none;
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 425px) { 
+
+  .cabecalho {
+    position: static;
+    text-align: center;
+  }
+
+
+  .cabecalho nav {
+    display: block;
+    position: static;
+  }
+
+  .cabecalho nav ul li {
+    display: block;
+    padding: 2px 0;
+  }
+  
+  .cabecalho nav ul li a {
+    display: block;
+    padding: 13px 0;
+  }
+
+  .painel h2 {
+    font-size: 2.5rem;
+  }
+
+  .com-texto {
+    padding: 130px 25px;
+  }
+
+  .com-texto header h2 {
+    font-size: 3rem;
+  }
+
+  .com-texto p, .com-texto.onde-estamos p {
+    font-size: 2rem;
+  }
+
+  .galeria .pequeno,
+  .galeria .pequeno.grao {
+    background-size: cover;
+    width: 100%;
+  }
+
+  .contato .container-texto-contato address {
+    font-size: 2rem;
+  }
+}
+
